@@ -1,0 +1,32 @@
+/*Generales*/
+
+* {
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: #fff;
+	background: #141414;
+	font-size: 12px;
+    line-height: 1.2;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+header {
+	text-align: center;
+}
+
+section.main {
+	margin: 0 auto;
+	width: 70%;
+}
+
+/*footer*/
+footer p{
+	color: grey;
+}
+

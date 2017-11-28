@@ -1,0 +1,11 @@
+<div class="preview">
+    <img [src]="selected.coverURL" alt="">
+    <h1>{{ selected.name }}</h1>
+    <p>{{ selected.description }}</p>
+    <button (click)="down.init()">Ver trailer</button>
+    <button (click)="addMovie()">Add Movie</button>
+    <button (click)="seeMovie()">See Movie</button>
+    <hr>
+    <a href="/movie/{{ selected.id }}">Ver pelicula</a>
+    <app-download></app-download>
+</div>

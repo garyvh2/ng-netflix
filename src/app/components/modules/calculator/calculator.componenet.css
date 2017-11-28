@@ -1,0 +1,10 @@
+/*pricing*/
+.pricing {
+	border: 1px solid grey;
+	padding: 2% 5%;
+}
+
+.pricing input {
+	border: 1px solid #e50914;
+	padding: 10px;
+}

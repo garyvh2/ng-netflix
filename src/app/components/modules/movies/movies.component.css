@@ -1,0 +1,19 @@
+/*Movies*/
+
+.movies ul {
+	list-style: none;
+	width: 100%;
+	overflow: scroll;
+}
+
+.movies ul::after{
+	clear: both;
+	display: block;
+	height: 1px;
+	content: '';
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}

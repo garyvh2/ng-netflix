@@ -1,0 +1,6 @@
+<li [appNewArrival]="mv.arrival">
+    <img [src]="mv.thumbnailURL" alt="">
+    <h2> {{ mv.name}}</h2>
+    <p>  {{ mv.description }}</p>
+    <button (click)="pickMovie(mv)">Watch Trailer</button>
+</li>

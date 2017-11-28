@@ -1,0 +1,15 @@
+<section class="movies">
+    <app-preview 
+        [selected]="selectedMovie"
+        *ngIf="selectedMovie">
+    </app-preview>
+    <ul>
+        <app-movie 
+            *ngFor="let movie of (movies | newArrivals)" 
+            [mv]="movie"
+            (selectMovie)="setMovie($event)">
+        </app-movie>
+        <div class="clearfix"></div>
+    </ul>
+</section>
+<app-calculator></app-calculator>

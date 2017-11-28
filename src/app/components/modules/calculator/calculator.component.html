@@ -1,0 +1,11 @@
+<section class="pricing">
+    <h1>Calcular costo de membresía por cantidad de películas.</h1>
+
+    <label for="">
+        Cantidad:
+        <input type="text" [(ngModel)]="cantidad"> peliculas
+    </label>
+    <p>Valor de la película {{ moviePrice }} colones.</p>
+    <p>Valor de la membresía: {{ cantidad | membership | currency }} *I.V.A</p>
+    <p>*Impuesto de ventas incluído.</p>
+</section>
